@@ -9,13 +9,13 @@ pip install https://github.com/anandpskerala/GraphApi/archive/master.zip
 ## Usage
 If you need an office 365 token, send office365 attribute in True like this:
 ```
-from microsoftgraph.client import Client
+from GraphApi import Client
 client = Client('CLIENT_ID', 'CLIENT_SECRET', account_type='by defect common', office365=True)
 ```
 
 If you don't, just instance the library like this:
 ```
-from microsoftgraph.client import Client
+from GraphApi import Client
 client = Client('CLIENT_ID', 'CLIENT_SECRET', account_type='by defect common')
 ```
 
